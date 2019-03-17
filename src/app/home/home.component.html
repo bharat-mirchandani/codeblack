@@ -1,0 +1,16 @@
+<h2>Look deep into nature, and then you will understand everything better. </h2>
+<h5>I believe the world is incomprehensibly beautiful an endless prospect of magic and wonder. </h5>
+<div class="dynamicGallery">Dynamic Gallery</div>
+
+<div class="carousel">
+
+  <ul class="slides">
+
+    <li *ngFor=" let image of images">
+      <h2>{{image.title}}</h2>
+      <img src="{{image.url}}" alt="">
+    </li>
+
+  </ul>
+
+</div>
